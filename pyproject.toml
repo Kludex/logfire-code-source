@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "fastapi>=0.115.0",
-    "logfire>=1.0.1",
+    "logfire[fastapi]>=1.0.1",
     "uvicorn>=0.31.1",
 ]
 
